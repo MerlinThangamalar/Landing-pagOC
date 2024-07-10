@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://www.business2community.com/wp-content/uploads/2021/05/BOP-B2B-5-Skills-of-Effective-B2B-Web-Developers_1024x352.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.top .overlay {
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.278);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color:azure;
+    bottom:5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 15px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1{
+width: 50%;
+min-height: inherit;
+background-image: url(https://miu.sg/wp-content/uploads/Blog_Image.jpg);
+background-size: cover;
+background-position: center;
+}
+.b1 h2{
+    text-align: center;
+    padding: 1px;
+    color:  rgba(0, 0, 0, 0.712);
+}
+
+.b1 p{
+    color: aliceblue;
+    text-align: center;
+    padding: 1px;
+}
+.b1 h2{
+    text-align: center;
+    padding: 10px;
+}
+.b1 h3{
+    text-align: center;
+    padding: 70px;
+}
+.b2{
+    display: flex;
+    width: 60%;
+    min-height: inherit;
+    flex-direction: column;
+}
+.b2 .up{
+    width: 100%;
+    min-height: 30vh;
+    background-image: url(https://www.onlinemanipal.com/wp-content/uploads/2022/11/ROAD-MAP-FOR-A-FULL-STACK-DEVELOPER-.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b2 h2{
+    text-align: left;
+    color: rgb(249, 192, 101);
+}
+
+.b2 p{
+    color: rgb(253, 174, 55);
+    text-align: left;
+}
+
+.b2{
+    display: flex;
+    width: 50%;
+    min-height: inherit;
+    flex-direction: column;
+}
+.b2 .down{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://thumbs.dreamstime.com/b/web-developers-team-concept-illustration-programming-applications-developing-coding-technologies-business-startup-doodle-156496845.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b3{
+    display: flex;
+    width: 20%;
+    min-height: inherit;
+    flex-direction: column;
+}
+.b3 .up{
+    width: 100%;
+    min-height: 30vh;
+    background-image: url(https://cdni.iconscout.com/illustration/premium/thumb/cross-platform-framework-7468733-6107591.png);
+    background-size: cover;
+    background-position: center;
+}
+.b3 h2 {
+    text-align: center;
+    color: rgb(19, 50, 150);
+    padding: 10px;
+}
+.b3 .down{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://mohiva.co.in/wp-content/uploads/2018/01/f50524ee5f161f437400aaf215c9e12f-plain-white-background-cristina-576x1024.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b3 h3{
+    text-align: center;
+    color: rgb(244, 111, 29);
+    padding: 40px;
+}
+.b3 p{
+    color: rgba(238, 232, 61, 0.903);
+    text-align: center;
+    padding: 1vh;
+}
